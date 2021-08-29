@@ -1,0 +1,3 @@
+- Với kiến trúc redux sẽ tồn tại 2 folder chính cho reducer logic là reducers và action creators là actions. Khi app lớn lên vấn đề là mỗi lần thêm hay sửa một function trong actions lại phải lọ mọ sang bên reducers để định nghĩa hoặc sửa đổi => mất công.
+- Redux toolkit được sử dụng nhằm để kết hợp giữa actions và reducers lại với nhau và đó chính là nhiệm vụ của slice và được thực thi bằng hàm createSlice.
+- Note: Nhứng ai muốn dùng redux toolkit nhưng lại thích thiết kế cũ thì redux toolkit cũng có các hàm createReducer và createAction. Hàm createSlice thực chất chính là kết hợp 2 hàm createReducer và createAction.
