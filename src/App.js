@@ -1,4 +1,5 @@
 import './App.css';
+import ChangeColor from './components/ChangeColor';
 import LoginLogout from './components/LoginLogout';
 import Profile from './components/Profile';
 
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Profile />
       <LoginLogout />
+      <ChangeColor />
     </div>
   );
 }
