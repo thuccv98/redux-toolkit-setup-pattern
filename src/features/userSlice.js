@@ -10,6 +10,10 @@ const userSlice = createSlice({
   },
 });
 
+// export const { login } = userSlice.actions;
+// export default  userSlice.reducer;
+
+// Cach viet clean hon
 const { reducer, actions } = userSlice;
 export const { login } = actions;
 export default reducer;
